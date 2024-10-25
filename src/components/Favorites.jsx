@@ -32,7 +32,7 @@ function Favorites() {
             {SearchAdvice.map((item, index) => (
                 <li key={index}>
                     {item}
-                    <button className="button-favo" onClick={() => handleDelete(item)}>Xóa</button>
+                    <button className="button-favo" onClick={() => handleDelete(item)}>Xóa.</button>
                 </li>
             ))
             }
