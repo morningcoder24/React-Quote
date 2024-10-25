@@ -3,7 +3,10 @@ import Button from './Button';
 
 function AdviceCard(props) {
     const [newAdvice, setNewAdvice] = useState(''); // Local state for new advice input
-
+    const handleShare = () => {
+        const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://react-quote-sigma.vercel.app/')}`;
+        window.open(facebookShareUrl, '_blank');
+    };
     return (
         <div className="card">
             <div className="card-bottom">
@@ -27,7 +30,7 @@ function AdviceCard(props) {
                 <div className="button-container">
                     <Button onClick={props.fetchRandomAdvice} iconClass="fas fa-dice" />
                     <Button onClick={props.saveFavorite} iconClass="fas fa-heart" />
-                    <Button iconClass="fas fa-share" />
+                    <Button onClick={handleShare} iconClass="fas fa-share" />
                     <Button onClick={props.goToFavorites} iconClass="fas fa-list" />
                 </div>
             </div>

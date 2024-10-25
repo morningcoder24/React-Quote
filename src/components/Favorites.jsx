@@ -20,6 +20,7 @@ function Favorites() {
         localStorage.setItem('favorites', JSON.stringify(updatedFavorites));
         setFavoriteAdvice(updatedFavorites); // Cập nhật state
     };
+
     // Lọc lời khuyên yêu thích theo từ khóa tìm kiếm
     const SearchAdvice = favoriteAdvice.filter(item =>
         item.toLowerCase().includes(searchTerm.toLowerCase())
@@ -40,6 +41,7 @@ function Favorites() {
     const goToHome = () => {
         navigate('/');
     };
+
     return (
         <>
             <div className='card-favo card-bottom'>
