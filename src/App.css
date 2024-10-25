@@ -95,7 +95,10 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
+    .card-favo {
+        width: 100%;
+    }
     .card {
         width: 95%;
     }
@@ -106,6 +109,9 @@ body {
 }
 
 @media (max-width: 480px) {
+    .card-favo {
+        padding: 1em;
+    }
     .card {
         padding: 1em;
     }
