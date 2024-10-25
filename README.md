@@ -4,7 +4,7 @@
 
 Chào mừng bạn đến với **Lời Khuyên Ngẫu Nhiên** - một ứng dụng web đơn giản được phát triển bằng **React**. Ứng dụng này giúp người dùng nhận những lời khuyên bổ ích, lưu trữ những lời khuyên yêu thích và thêm những lời khuyên mới vào danh sách. Tất cả dữ liệu đều được lưu trữ trên **localStorage**, đảm bảo rằng bạn có thể tiếp tục từ nơi mình đã dừng lại.
 
-👉 Xem ứng dụng tại: [React Quote](https://react-quote-sigma.vercel.app/)
+👉 Xem ứng dụng tại: [React Quote](https://react-quote-zt12.vercel.app/)
 
 ---
 
