@@ -4,7 +4,7 @@ import Button from './Button';
 function AdviceCard(props) {
     const [newAdvice, setNewAdvice] = useState(''); // Local state for new advice input
     const handleShare = () => {
-        const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://react-quote-sigma.vercel.app/')}`;
+        const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://react-quote-zt12.vercel.app/')}`;
         window.open(facebookShareUrl, '_blank');
     };
     return (
