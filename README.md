@@ -37,4 +37,4 @@ Chào mừng bạn đến với **Lời Khuyên Ngẫu Nhiên** - một ứng d�
 1. **Clone repository**:
 
    ```bash
-   git clone https://github.com/your-username/advice-app.git
+   git clone [https://github.com/your-username/advice-app.git](https://github.com/morningcoder24/React-Quote.git)
